@@ -29,7 +29,7 @@ custom_stop_words = set([
     'meta', 'link', 'stylesheet', 'css', 'js', 'data', 'function', 'var', 'let', 'const',
     'new', 'time', 'one', 'would', 'could', 'us', 'said', 'also', 'first', 'last', 'say',
     'may', 'like', 'get', 'go', 'know', 'year', 'make', 'see', 'back', 'people', 'cnn', 'york', 'time'
-    'post'
+    'post', 'washington', 'time', 'video', 'today', 'news', 'reuters'
 ])
 
 stop_words.update(custom_stop_words)
