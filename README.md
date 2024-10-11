@@ -1,7 +1,7 @@
 # TrendInsights
 
 TrendInsights is a Python application that analyzes current news trends and sentiments to identify popular keywords and topics. It features a Streamlit web interface that updates automatically and displays trending keywords in real-time.
-
+![Screenshot](assets/image.png)
 ## Features
 
 - **Real-Time Updates**: Streamlit interface that refreshes to show the latest trending keywords.
