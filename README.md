@@ -1,16 +1,14 @@
 # TrendInsights
 
-TrendInsights is a Python application that analyzes current news trends and sentiments to identify popular keywords and topics. It fetches data from multiple RSS news feeds, processes the text to extract significant keywords, and evaluates their popularity and sentiment using Google Trends and NLTK.
-
-![Screenshot](/assets/image.png)
+TrendInsights is a Python application that analyzes current news trends and sentiments to identify popular keywords and topics. It features a Streamlit web interface that updates automatically and displays trending keywords in real-time.
 
 ## Features
 
-- Extracts and processes text data from major news RSS feeds.
-- Identifies the most frequent and meaningful keywords.
-- Analyzes keyword trends using Google Trends.
-- Performs sentiment analysis on keywords using NLTK's VADER.
-- Ranks keywords based on frequency, trend velocity, average interest, and sentiment score.
+- **Real-Time Updates**: Streamlit interface that refreshes to show the latest trending keywords.
+- **Data Sources**: Extracts and processes text data from major news RSS feeds.
+- **Trend Analysis**: Uses Google Trends to analyze keyword popularity.
+- **Sentiment Analysis**: Performs sentiment analysis using NLTK's VADER.
+- **Keyword Ranking**: Ranks keywords based on frequency, trend velocity, average interest, and sentiment score.
 
 ## Installation
 
@@ -40,10 +38,12 @@ TrendInsights is a Python application that analyzes current news trends and sent
 
 ## Usage
 
-Run the script:
+1. **Run the Streamlit app:**
 
-```bash
-python app.py
-```
+   ```bash
+   streamlit run app.py
+   ```
 
-The script will output a list of keywords with their popularity scores.
+2. **View the app:**
+
+   Open the URL provided by Streamlit (usually `http://localhost:8501`) in your web browser to view the live dashboard.
