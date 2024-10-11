@@ -43,7 +43,7 @@ TrendInsights is a Python application that analyzes current news trends and sent
 Run the script:
 
 ```bash
-python run.py
+python app.py
 ```
 
 The script will output a list of keywords with their popularity scores.
